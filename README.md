@@ -1,5 +1,123 @@
-<!-- To start the code run this in virtual environment terminal: -->
-    streamlit run app.py
+# 🎯 AI Skill Assessment & Personalised Learning Plan Agent
 
-<!-- to check for the models i can use through API -->
-python -c "import google.generativeai as genai; genai.configure(api_key='AIzaSyBfeHo-wB7-NkLuare7WfgKg5W82OUoZAk'); [print(m.name) for m in genai.list_models() if 'generateContent' in m.supported_generation_methods]"
+A conversational AI agent that takes a Job Description and a candidate's resume, assesses real proficiency on each required skill through targeted questions, identifies skill gaps, and generates a personalised learning plan with curated resources and time estimates.
+
+---
+
+## 🚀 Live Demo
+> Coming soon / [Add your deployed URL here]
+
+---
+
+## 🎥 Demo Video
+> [Add your Loom/YouTube link here]
+
+---
+
+## 💡 What It Does
+
+A resume tells you what someone *claims* to know — not how well they actually know it.
+
+This agent:
+1. **Extracts** the top 3 required skills from any Job Description
+2. **Conversationally assesses** the candidate with 2 targeted questions per skill (conceptual → applied)
+3. **Scores** each skill from 1–10 with a proficiency level and feedback
+4. **Identifies gaps** — any skill scored below 7 is flagged
+5. **Generates a personalised learning plan** with free resources, time estimates, and hands-on projects
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Streamlit
+- **LLM:** Google Gemini (gemini-3-flash-preview)
+- **PDF Parsing:** PyPDF2
+- **Language:** Python 3.14.3
+
+---
+
+## ⚙️ Local Setup
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/gyash07/skill-assessment-agent.git
+cd skill-assessment-agent
+```
+
+### 2. Create a virtual environment
+```bash
+python -m venv venv
+venv\Scripts\activate  # Windows
+```
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Add your API key
+Create a `.env` file in the root folder:
+
+GEMINI_API_KEY=your_gemini_api_key_here.
+
+Get your free API key at: https://aistudio.google.com/app/apikey
+
+### 5. Run the app
+```bash
+streamlit run app.py
+```
+
+---
+
+## 📊 Scoring Logic
+
+Each skill is assessed through **2 questions of increasing depth:**
+- **Question 1** — Conceptual: "What is X and when would you use it?"
+- **Question 2** — Applied: "Walk me through a real scenario where you used X"
+
+**Proficiency Scale:**
+| Score | Level | Meaning |
+|-------|-------|---------|
+| 1–3 | Beginner | Little to no knowledge |
+| 4–5 | Elementary | Basic awareness only |
+| 6–7 | Intermediate | Can work with guidance |
+| 8–9 | Advanced | Works independently |
+| 10 | Expert | Can teach others |
+
+**Gap Threshold:** Any skill scored **below 7** is identified as a gap and included in the learning plan.
+
+**Adjacent Skills:** Skills scored between 4–6 are prioritised first in the learning plan — these are closest to job-ready and require the least effort to level up.
+
+---
+
+## 📁 Sample Inputs & Outputs
+
+- Sample Job Description: [`job_description.txt`](./job_description.txt)
+- Sample Output: Coming soon
+
+---
+
+## 🗂️ Project Structure
+
+ai_skill_assessment_agent/
+├── app.py               # Main Streamlit application
+├── requirements.txt     # Python dependencies
+├── job_description.txt  # Sample job description
+├── .env.example         # API key template
+├── .gitignore           # Files excluded from git
+└── README.md            # This file
+
+---
+
+## 🔮 Future Improvements
+
+- Support for more than 3 skills
+- Export learning plan as PDF
+- Deploy on Streamlit Cloud
+- Add voice-based assessment
+- Store results in a database
+
+---
+
+## 👤 Author
+Built by Yash Goel — https://github.com/gyash07

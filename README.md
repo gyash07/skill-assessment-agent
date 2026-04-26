@@ -117,7 +117,7 @@ ai_skill_assessment_agent/
 ---
 ## ⚠️ API Usage & Limitations Note
 
-This project uses the **Google Gemini API (Free Tier)** therefore due to usage limitations, I made certain tradeoffs in skills extraction and questionings which can be later changed for the more detailed evaluations!
+This project uses the **Google Gemini API (Free Tier)** therefore due to usage limitations, I made certain tradeoffs in skills extraction and questionings which can be later changed for the more detailed evaluations, also using better model will give better results!
 
 ### Design Decisions Based on These Limits
 

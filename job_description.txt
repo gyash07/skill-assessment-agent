@@ -1,0 +1,35 @@
+1. Senior Applied Scientist – Generative AI & NLPRole Overview:
+We are seeking a Senior Applied Scientist to lead research and development in Large Language Models (LLMs) and Deep Generative Models.
+You will be responsible for building scalable AI solutions that drive tangible impact for consumer products.
+
+Key Responsibilities:Lead research on bias mitigation and fairness in NLP.
+        Oversee projects from proof of concept to minimum viable product (MVP) and production scaling.
+        Collaborate in cross-functional teams and communicate complex technical results to stakeholders.
+        Mentor and coach junior scientists and research interns.
+    
+Qualifications:PhD in Machine Learning, Mathematics, or a related field.
+        Proven track record of publishing at top-tier conferences like ICML, ICLR, or ICASSP.
+        Expertise in Python, PyTorch, and cloud computing platforms like AWS/SageMaker.
+
+-------------------------------------------------------------------
+
+2. Frontend Engineer (React)
+We're looking for a Frontend Engineer to build responsive, performant web applications. 
+You'll work closely with designers and backend engineers to ship features users love.
+Required skills: React, TypeScript, REST APIs, CSS/Tailwind, Git, basic accessibility (WCAG), unit testing (Jest).
+
+--------------------------------------------------------------------
+
+3. Data Analyst (SQL + Python)
+Join our growth team to turn raw data into decisions.
+You'll own dashboards, run ad-hoc analyses, and present findings to non-technical stakeholders.
+Required skills: SQL (complex queries, window functions), Python (pandas, matplotlib),
+        Excel/Google Sheets, data visualisation (Tableau or Power BI), A/B testing fundamentals, clear written communication.
+
+---------------------------------------------------------------------
+
+4. DevOps / Platform Engineer
+Help us scale our cloud infrastructure reliably and securely.
+You'll manage CI/CD pipelines, containerised workloads, and observability tooling.
+Required skills: AWS (EC2, S3, IAM, RDS), Docker & Kubernetes, Terraform, GitHub Actions or Jenkins,
+        Linux administration, monitoring (Prometheus/Grafana), incident response basics.

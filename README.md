@@ -4,13 +4,8 @@ A conversational AI agent that takes a Job Description and a candidate's resume,
 
 ---
 
-## 🚀 Live Demo
-> Coming soon / [Add your deployed URL here]
-
----
-
 ## 🎥 Demo Video
-> [Add your Loom/YouTube link here]
+> [https://drive.google.com/file/d/1aM51e7fqFR-FAFSHxSbg1Xyf8paC64_Q/view?usp=sharing]
 
 ---
 

@@ -8,24 +8,23 @@ it takes a Job Description + Resume, conducts a conversational skill assessment,
 ## 📥 Sample Input
  
 ### 🧾 Job Description (JD)
-**Role:** Data Analyst — Growth Team
+**Role:** Data Analyst (SQL + Python) — Growth Team
+ 
+**About the Role:**
+Join our growth team to turn raw data into decisions. You'll own dashboards, run ad-hoc analyses, and present findings to non-technical stakeholders.
  
 **Required Skills:**
-- SQL (Advanced)
-- Python (Intermediate)
-- Data Visualization (Tableau or Power BI)
-- A/B Testing & Statistical Analysis
-- Communication & Stakeholder Reporting
+- SQL (complex queries, window functions)
+- Python (pandas, matplotlib)
+- Excel / Google Sheets
+- Data Visualisation (Tableau or Power BI)
+- A/B Testing Fundamentals
+- Clear Written Communication
 ---
  
 ### 📄 Candidate Resume — Priya
  
-| Field | Details |
-|---|---|
-| **Name** | Priya |
-| **Projects** | To-Do List Web App, Personal Portfolio |
-| **Claimed Skills** | SQL, Python, HTML, CSS, JavaScript |
-| **Education** | B.Tech / BCA (assumed) |
+[View Candidate Resume (PDF)](./testing%20resume.pdf)
  
 ---
  

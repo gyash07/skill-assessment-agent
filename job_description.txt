@@ -1,5 +1,0 @@
-Data Analyst (SQL + Python):
-Join our growth team to turn raw data into decisions.
-You'll own dashboards, run ad-hoc analyses, and present findings to non-technical stakeholders.
-Required skills: SQL (complex queries, window functions), Python (pandas, matplotlib),
-        Excel/Google Sheets, data visualisation (Tableau or Power BI), A/B testing fundamentals, clear written communication.

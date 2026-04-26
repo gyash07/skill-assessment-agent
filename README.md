@@ -68,6 +68,9 @@ streamlit run app.py
 ```
 
 ---
+## 🏗️ Architecture Diagram
+
+![Architecture](./architecture.png)
 
 ## 📊 Scoring Logic
 
@@ -98,7 +101,7 @@ Each skill is assessed through **2 questions of increasing depth:**
 ---
 
 ## 🗂️ Project Structure
-
+```
 ai_skill_assessment_agent/
 ├── app.py               # Main Streamlit application
 ├── requirements.txt     # Python dependencies
@@ -106,7 +109,7 @@ ai_skill_assessment_agent/
 ├── .env.example         # API key template
 ├── .gitignore           # Files excluded from git
 └── README.md            # This file
-
+```
 ---
 
 ## 🔮 Future Improvements

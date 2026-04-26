@@ -120,6 +120,22 @@ ai_skill_assessment_agent/
 - Store results in a database
 
 ---
+## ⚠️ API Usage & Limitations Note
+
+This project uses the **Google Gemini API (Free Tier)** therefore due to usage limitations, I made certain tradeoffs in skills extraction and questionings which can be later changed for the more detailed evaluations!
+
+### Design Decisions Based on These Limits
+
+To stay within free tier limits without requiring any billing setup, the following intentional trade-offs were made:
+
+| Feature | Ideal Version | This Version (Free Tier) |
+|---|---|---|
+| Skills extracted from JD | 5 skills | 3 skills |
+| Questions per skill | 3 questions | 2 questions |
+
+> 💡 The core agent logic, scoring rubric, and learning plan generation remain fully functional — only the scale is reduced to respect free tier limits.
+
+---
 
 ## 👤 Author
 Built by Yash Goel — https://github.com/gyash07

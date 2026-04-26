@@ -96,8 +96,7 @@ Each skill is assessed through **2 questions of increasing depth:**
 ## 📁 Sample Inputs & Outputs
 
 - Sample Job Description: [`job_description.txt`](./job_description.txt)
-- Sample Output: Coming soon
-
+- Sample Output: [`sample_input_output.md`](./sample_input_output.md)
 ---
 
 ## 🗂️ Project Structure
